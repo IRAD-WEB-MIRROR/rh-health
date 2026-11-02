@@ -1,0 +1,54 @@
+/* Talas Regional Hospital: additions to the standard template (wave.css) */
+html.wave-1 .crumbs{font-size:10px;color:#777;margin:0 0 8px}.crumbs a{color:#556}
+.small{font-size:9px;color:#666}.lead{font-size:12px;color:#333}
+.num{text-align:right;white-space:nowrap}.nw{white-space:nowrap}.lo{color:#c0392b;font-weight:bold}
+.intro{overflow:hidden;margin:0 0 10px}.intro img{float:right;width:220px;height:auto;margin:0 0 8px 12px;border:1px solid #aaa;padding:3px;background:#fff}
+.fr{float:right;margin:0 0 8px 12px;border:1px solid #aaa;padding:3px;background:#fff;height:auto}
+.welcome .mk{float:left;width:72px;height:72px;margin:0 10px 0 0}
+.tiles{overflow:hidden;margin:0 0 6px}
+html.wave-1 .tile{display:block;float:left;width:48%;box-sizing:border-box;margin:0 2% 6px 0;padding:5px 7px;border:1px solid #c3ced9;background:#f6f8fa;text-decoration:none;color:#333;font-size:10px;height:54px;overflow:hidden}
+.tile b{display:block;font-size:11px;color:#1f3f63}html.wave-1 .tile:hover{background:#e3ebf3}
+.ni{padding:4px 0 5px;border-bottom:1px dashed #c7d1db}.ni .d,.vn .d{color:#b0301c;font-weight:bold;font-size:10px;margin-right:4px}
+.new{color:#c0392b;font:bold 9px Arial;text-transform:uppercase;animation:bl 1s steps(1) infinite}@keyframes bl{50%{visibility:hidden}}
+@media (prefers-reduced-motion:reduce){.new{animation:none}}
+.more{text-align:right;font-size:10px}
+.ann{border-left:3px solid #b8892b;background:#fffdf5;padding:5px 8px;margin:0 0 8px}
+.vn{padding:5px 0;border-bottom:1px dashed #c7d1db}
+html.wave-1 table.t{border-collapse:collapse;width:100%;margin:4px 0 10px}
+html.wave-1 table.t th{background:#dbe3eb;border:1px solid #a9b8c7;padding:3px 5px;font-size:10px;text-align:left;color:#1f3f63}
+html.wave-1 table.t td{border:1px solid #c3ced9;padding:3px 5px;vertical-align:top}table.t tr:nth-child(even) td{background:#f5f7f9}
+.t.kv th{width:140px}.t.sm td,.t.sm th{font-size:10px;padding:2px 3px;text-align:right}.t.sm td:first-child,.t.sm th:first-child{text-align:left}
+.scroll{overflow-x:auto}
+.filter{background:#eef2f6;padding:4px 6px;border:1px solid #c7d1db}
+.person{overflow:hidden;border-bottom:1px dashed #c7d1db;padding:8px 0}.person img,.nophoto{float:left;margin-right:12px;border:1px solid #999;padding:2px;background:#fff}
+.nophoto{width:116px;height:146px;text-align:center;color:#999;font-size:10px;padding-top:60px;box-sizing:border-box;background:#eef2f6}
+.person h3{margin:0 0 2px;color:#1f3f63;font-size:12px}.post{font-weight:bold;color:#7a2a1b;margin:0 0 6px}
+html.wave-1 .doc .dh{text-align:center;font-weight:bold;letter-spacing:.5px}html.wave-1 .doc{font:12px/1.5 "Times New Roman",serif;padding:14px 22px}
+.doc .dn{text-align:center}.doc .dt{text-align:center;font-weight:bold;margin:10px 30px}.doc .sig{margin-top:14px;font-style:normal;color:#222}
+.art .d{color:#b0301c;font-weight:bold;margin:0}.art p{font-size:12px}.src{font-style:italic;color:#666}.pn{border-top:1px dotted #ccc;padding-top:4px}
+.rbox .b{font-size:10px}.wt{width:100%;border-collapse:collapse}.wt td{padding:1px 0;border-bottom:1px dotted #d3dbe3}
+.pr td{padding:1px 2px;font-size:10px}.pr .bar{display:inline-block;height:7px;background:#4f6f8f;vertical-align:middle}
+.w1-mast .flag{position:absolute;right:14px;bottom:10px;z-index:2;font-size:10px;color:#c8d5e1}
+html.wave-1 .w1-lm ul.menu a.old:after{content:" *";color:#999}
+.flash{width:100%;height:120px;box-sizing:border-box;border:1px solid #c9c9c9;background:#f4f4f4;margin:0 0 12px;position:relative}
+.flash:after{content:"";position:absolute;left:50%;top:50%;width:22px;height:22px;margin:-11px 0 0 -11px;background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='%23bbb' d='M20.5 11H19V7a2 2 0 0 0-2-2h-4V3.5a2.5 2.5 0 0 0-5 0V5H4a2 2 0 0 0-2 2v3.8h1.5a2.7 2.7 0 0 1 0 5.4H2V20a2 2 0 0 0 2 2h3.8v-1.5a2.7 2.7 0 0 1 5.4 0V22H17a2 2 0 0 0 2-2v-4h1.5a2.5 2.5 0 0 0 0-5z'/></svg>") center/contain no-repeat}
+.welcome{overflow:hidden;background:#fbf8ef;border:1px solid #e3d7b5;padding:8px;margin:0 0 10px}
+.welcome img{float:left;width:72px;border:1px solid #999;margin:0 10px 0 0;padding:2px;background:#fff}
+.sig{font-style:italic;color:#555}
+html.wave-1 .rbox .more{display:block;text-align:right;font-size:10px;margin-top:4px}
+/* the period mobile version (?pda=1) */
+html.wave-1.pda .w1-mast .flag,html.wave-1.pda .flash,html.wave-1.pda .welcome img{display:none}
+html.wave-1.pda .intro img,html.wave-1.pda .fr{float:none;display:block;width:100%;max-width:100%;box-sizing:border-box;margin:0 0 8px}
+html.wave-1.pda .tile{float:none;width:auto;height:auto;margin:0 0 6px;font-size:13px}
+html.wave-1.pda table.t{display:block;overflow-x:auto}html.wave-1.pda .doc{padding:10px}
+/* the subsidy rules page: left on the old server (wave 0) */
+html.wave-0 table.t{width:100%}html.wave-0 .num{text-align:right}html.wave-0 .small{color:#555}
+/* hospital */
+html.wave-1 table.t tr.grp td{background:#dbe3eb;font-weight:bold;color:#1f3f63;font-size:10px}
+.notice{border:1px solid #e3c27a;background:#fff8e6;padding:5px 8px;margin:6px 0 10px}
+.w1-mast .em{background:#fff;border-radius:50%}
+.welcome{padding-left:12px}
+body.mem .page{max-width:640px;margin:0 auto}
+html.wave-0 body.mem p{text-align:justify}
+html.wave-0 body.mem img{border:1px solid #808080}
+html.wave-0 body.mem .w0-head img{border:0}

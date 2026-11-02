@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rh.health.iradgov.org/sitemap.xml
